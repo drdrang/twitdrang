@@ -30,8 +30,10 @@ function twitdrang() {
   $("li.u-DrSamuelJohnson.latest-status span.entry-content").css({"font-family": "IM Fell English", "font-size": "175%"});
 }
   
-(function () {
-    if (window.fluid) {
-		  twitdrang();
-    }
-})();
+if (window.fluid) {
+  twitdrang();
+}
+
+$(window).scroll( function() {
+    twitdrang();
+  });
