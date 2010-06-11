@@ -6,8 +6,11 @@
 // @author      Dr. Drang (http://www.leancrew.com/all-this/
 // ==/UserScript==
 
-function twitdrang() {
+function getIMFell() {
   $("head link:last").after('<link href="http://fonts.googleapis.com/css?family=IM+Fell+English" rel="stylesheet" type="text/css">');
+}
+
+function twitdrang() {
   $("#container").css({'width':'600px'});
   $("#header").css({'width':'600px'});
   $("div#wrapper").css({'width':'400px'});
@@ -31,6 +34,7 @@ function twitdrang() {
 }
   
 if (window.fluid) {
+  getIMFell();
   twitdrang();
 }
 
