@@ -8,6 +8,7 @@ Scrolling to the right reveals the sidebar with the other Twitter tools.
 
 ![Twitdrang sidebar][2]
 
+The `install.sh` script copies the userscript from the working folder to the appropriate spot in `~/Library/Application Support/Fluid`. The Twitter SSB I use this with is just called "Twitter." If you use a different name for your SSB, you'll have to change the destination folder name in `install.sh`.
 
 
 
