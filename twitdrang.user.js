@@ -28,7 +28,7 @@ function twitdrang() {
   $(".actions-hover .retweet-link a").css({'display':'none'});
   $(".actions-hover .del a").css({'display':'none'});
   $("ol#timeline .status-content").css({"font-family": "Lucida Grande", "font-size": "15px", "line-height": "1.3"});
-  $("textarea#status").css({"line-height": "1.4", "height": "4.2em"});
+  $("textarea#status").css({'font-size':'15px',"line-height": "1.3", "height": "4.2em"});
   $("li.u-DrSamuelJohnson span.entry-content").css({"font-family": "IM Fell English", "font-size": "120%"});
   $("li.u-DrSamuelJohnson.latest-status span.entry-content").css({"font-family": "IM Fell English", "font-size": "175%"});
 }
